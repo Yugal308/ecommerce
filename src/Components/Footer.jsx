@@ -26,17 +26,19 @@ const Footer = () => {
                 </div>
                 <div className="footer_socials">
                     <h3>Follow us</h3>
+                    <div>
                     <BsInstagram />
                     <FaYoutube />
                     <FaFacebookMessenger />
                     <BsDiscord />
+                    </div>         
                 </div>
                 <div className="footer_contact">
                     <h3>Call us.</h3>
                     <h4>+91 1234567890</h4>
                 </div>
             </div>
-            <hr />
+            <hr className='footer_hr'/>
             <div className="footer_copy">
                 <small>&copy;2023 E-Commerce. All rights Reserved.</small>
                 <div>
